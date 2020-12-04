@@ -1,0 +1,107 @@
+/*css */
+#myform table {
+    direction: rtl;
+}
+#myform table a,
+#myform table span {
+    margin-left: 5px;
+}
+.title_logo {
+    direction: rtl;
+    padding-right: 60px;
+    background-position: right center;
+}
+ul.cf_tabs_main_default > li {
+    float: right;
+}
+ul.cf_tabs_sub_default > li {
+    float: right;
+}
+
+form#myform > .form-group:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+form#myform > .form-group:first-child > div {
+    direction: rtl;
+}
+form#myform > .form-group:first-child > div:first-child {
+    text-align: left !important;
+}
+div#tab1 > h4 {
+    direction: rtl;
+}
+form#export,
+form#import {
+    direction: rtl;
+}
+form#export > .form-group,
+form#import > .form-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+form#export > .form-group label.control-label.col-sm-2,
+form#import > .form-group label.control-label.col-sm-2 {
+    text-align: left;
+}
+.col-sm-offset-2 {
+    margin-right: 16.6666667%;
+    margin-left: initial;
+}
+form#options_from {
+    direction: rtl;
+}
+form#options_from > .form-group {
+    display: flex;
+}
+form#g404from {
+    direction: rtl;
+}
+form#g404from .col-sm-10.help_icon {
+    float: right;
+    padding-left: 0;
+    padding-right: 140px;
+    background-position: right 0;
+}
+#g404from .form-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#tab1 > .form-group {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+div#tab1 > .form-group table th {
+    text-align: right;
+}
+div#tab1 > form {
+    direction: rtl;
+}
+/*div#tab1 > form > .form-group {
+    display: flex;
+}*/
+.database_icon,
+.ssl_icon {
+    padding-left: 0;
+    padding-right: 90px;
+    background-position: right 0;
+}
+div#tab1 > form.form-horizontal > .row {
+    display: flex;
+}
+div#tab1 > form[action="?page=seo-redirection-premium.php&SR_tab=redirect_manager&redirect_manager_tab=post_types"] > .form-group {
+    display: flex;
+}
+div#tab1 > form[action="?page=seo-redirection-premium.php&SR_tab=404_manager&404_manager_tab=general_rules"] > .row  > .col-sm-10{
+    padding-left: 0;
+    padding-right: 125px;
+    background-position: right 0;
+}
+form#options_from label.col-sm-2 {
+    text-align: left;
+}
+table.table.table-bordered th {
+    text-align: right;
+}

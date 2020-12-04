@@ -1,0 +1,28 @@
+/* Functional actions */
+
+do_action('asp_before_search', $search_phrase); 
+do_action('asp_after_search', $search_phrase, $results_assoc_array);
+
+do_action('asp_after_pagepost_results', $search_phrase, $pageposts_assoc_array);
+do_action('asp_after_comments_results', $search_phrase, $commentsresults_assoc_array);
+do_action('asp_after_buddypress_results', $search_phrase, $buddypresults_assoc_array);
+
+do_action('asp_before_autocomplete', $search_phrase);
+do_action('asp_after_autocomplete', $search_phrase, $keyword);
+
+/* Layount actions */
+
+do_action('asp_layout_before_shortcode', $id);
+do_action('asp_layout_after_shortcode', $id);
+do_action('asp_layout_before_input', $id);
+do_action('asp_layout_after_input', $id);
+do_action('asp_layout_before_magnifier', $id);
+do_action('asp_layout_in_magnifier', $id);
+do_action('asp_layout_after_magnifier', $id);
+do_action('asp_layout_before_settings', $id);
+do_action('asp_layout_after_settings', $id);
+do_action('asp_layout_before_loading', $id);
+do_action('asp_layout_in_loading', $id);
+do_action('asp_layout_after_loading', $id);
+do_action('asp_layout_settings_before_first_item', $id);
+

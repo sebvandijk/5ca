@@ -1,0 +1,3 @@
+redirect_from,redirect_to,redirect_type,redirect_from_type,redirect_from_folder_settings,redirect_from_subfolders,redirect_to_type,redirect_to_folder_settings,regex
+/cat/our-products/phpscripts,/product-category/php-scripts,301,Page,0,0,Page,0,
+/advanced-php-pagination.htm,/product/advanced-php-pagination-class/,301,Page,0,0,Page,0,

@@ -1,0 +1,47 @@
+/* Search instance options */
+$options = apply_filters("asp_instance_options", $options, $id);
+
+/* Search query arguments, similar to WP_Query */
+$args = apply_filters("asp_query_args", $args, $search_id);
+
+
+/* Search Results - Only if cache not activated! */
+$alltermsresults = apply_filters( 'asp_terms_results', $alltermsresults , $searchId);
+$allpageposts = apply_filters( 'asp_pagepost_results', $allpageposts , $searchId);
+$allcommentsresults = apply_filters( 'asp_comment_results', $allcommentsresults , $searchId);
+$buddypresults = apply_filters( 'asp_buddyp_results', $buddypresults , $searchId);
+$blogresults = apply_filters( 'asp_blog_results', $blogresults , $searchId);
+$userresults = apply_filters('asp_user_results', $userresults, $searchId);
+$results = apply_filters( 'asp_only_keyword_results', $results , $searchId);
+$results = apply_filters( 'asp_only_non_keyword_results', $results , $searchId);
+$results = apply_filters( 'asp_results', $results , $searchId);
+$s = apply_filters( 'asp_search_phrase_before_cleaning', $s );
+$s = apply_filters( 'asp_search_phrase_after_cleaning', $s );
+
+/**
+ * Use these filters to add additional parts to the select, join or where
+ * parts of the search query.
+ */
+// Index Table Engine queries
+$add_select = apply_filters('asp_it_query_add_select', '');
+$add_join = apply_filters('asp_it_query_add_join', '');
+$add_where = apply_filters('asp_it_query_add_where', '');
+
+// Regular post/page/custom post type search
+$add_select = apply_filters('asp_cpt_query_add_select', '');
+$add_join = apply_filters('asp_cpt_query_add_join', '');
+$add_where = apply_filters('asp_cpt_query_add_where', '');
+
+// Term (category, tag etc..) query
+$add_select = apply_filters('asp_term_query_add_select', '');
+$add_join = apply_filters('asp_term_query_add_join', '');
+$add_where = apply_filters('asp_term_query_add_where', ''); 
+
+// User query
+$add_select = apply_filters('asp_user_query_add_select', '');
+$add_join = apply_filters('asp_user_query_add_join', '');
+$add_where = apply_filters('asp_user_query_add_where', '');
+
+/* With cache activated */
+
+$cache_content = apply_filters( 'asp_cached_content_json', $cache_content);

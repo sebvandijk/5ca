@@ -1,0 +1,4 @@
+<FilesMatch "csv\.php$">
+Satisfy Any
+Allow from all
+</FilesMatch>

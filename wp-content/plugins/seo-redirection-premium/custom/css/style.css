@@ -1,0 +1,249 @@
+.Folder_1 { width: 16px; height: 16px ; padding-left: 16px; margin-right: 4px;  background:url("images/folder.png") no-repeat left center }
+.Folder_0{ width: 16px; height: 16px ; padding-left: 16px; margin-right: 4px; background:url("images/folder_off.png") no-repeat left center; }
+
+
+
+.Page_1 { width: 14px; height: 16px ; padding-left: 14px; margin-right: 4px; background:url("images/page.png") no-repeat left center }
+.Page_0 { width: 14px; height: 16px ; padding-left: 14px; margin-right: 4px; background:url("images/page_off.png") no-repeat left center; }
+
+.Regex_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/regex.png") no-repeat left center }
+.Regex_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/regex_off.png") no-repeat left center; }
+
+.Contain_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/contain.png") no-repeat left center }
+.Contain_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/contain_off.png") no-repeat left center; }
+
+.StartWith_1 {  width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/startwith.png") no-repeat left center }
+.StartWith_0 {  width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/startwith_off.png") no-repeat left center; }
+
+.Replace_1 {  width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/replace.png") no-repeat left center }
+.Replace_0 {  width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/replace_off.png") no-repeat left center; }
+
+.EndWith_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/endwith.png") no-repeat left center }
+.EndWith_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/endwith_off.png") no-repeat left center; }
+
+.Filetype_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px;  background:url("images/filetype.png") no-repeat left center }
+.Filetype_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px;  background:url("images/filetype_off.png") no-repeat left center; }
+
+.CSE_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSE.png") no-repeat left center }
+.CSE_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSE_off.png") no-repeat left center; }
+
+.CSS_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS.png") no-repeat left center }
+.CSS_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS_off.png") no-repeat left center; }
+
+.CMS_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS.png") no-repeat left center }
+.CMS_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS_off.png") no-repeat left center; }
+
+.CSP_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS.png") no-repeat left center }
+.CSP_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS_off.png") no-repeat left center; }
+
+.CSF_1 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS.png") no-repeat left center }
+.CSF_0 { width: 16px; height: 16px ; padding-left: 18px; margin-right: 4px; background:url("images/CSS_off.png") no-repeat left center; }
+
+
+.arrow_from{ padding-left: 20px; background:url("images/arrow_from.png") no-repeat left top}
+.arrow_to{ padding-left: 20px; background:url("images/arrow_to.png") no-repeat left bottom}
+
+.title_logo{
+    background: url("images/redirect_logo.png") no-repeat scroll left center ;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    min-height: 50px;
+    padding-left: 60px;
+    margin-top:20px;
+    }
+    
+.go_link_template_mpost {width:22px; height:22px; background:url(images/mpost.png) no-repeat 0 0;}
+
+.database_icon{background:url(images/database.png) no-repeat 0 0;
+    margin-left: 23px;
+    margin-bottom: 30px;
+    padding-left: 90px;
+}
+
+.ssl_icon{background:url(images/ssl.png) no-repeat 0 0;
+    margin-left: 23px;
+    margin-bottom: 30px;
+    padding-left: 90px;
+}
+
+.webpage_icon{background:url(images/webpage.png) no-repeat 0 0;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-left: 125px;
+}
+
+.images_icon{background:url(images/images.png) no-repeat 0 0;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-left: 125px;
+}
+
+.scripts_icon{background:url(images/scripts.png) no-repeat 0 0;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-left: 125px;
+}
+
+.otherfiles_icon{background:url(images/otherfiles.png) no-repeat 0 0;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-left: 125px;
+}
+
+.help_icon{background:url(images/help-icon.png) no-repeat 0 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    padding-left: 140px;
+}
+
+
+.wp-core-ui .seo_redirect_trash {
+    background: none repeat scroll 0 0 #eca801;
+    border-color: #ca8300;
+    box-shadow: 0 1px 0 rgba(230, 229, 35, 0.50) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 25/06/2018 */
+.test_inputs_div {
+	position: absolute;
+    right: 50px;
+    top: -100px;
+    z-index: 100;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 30%;
+}
+.test_inputs_div span#test_regx_btn {
+    margin-top: 20px;
+    display: inline-block;
+}
+.cf_tabs_container_main_default span.validate_txt {
+    display: flow-root;
+    color: red;
+}
+.test_output_div span.glyphicon.glyphicon.glyphicon-ok {
+    color: green;
+}
+.test_output_div {margin-top: 20px;}
+
+.test_output_div:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.test_inputs_div h4 {
+    font-weight: 700 !important;
+    margin-top: 0 !important;
+}
+.test_inputs_div input#test_url_input {
+    width: 100%;
+}
+span.test_loader
+{
+	width: 100px;
+    display: block;
+    position: relative;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: -14px;
+}
+
+input#redirect_from + .validate_txt {
+    padding-left: 109px;
+}
+
+input#redirect_to + .validate_txt {
+    padding-left: 109px;
+}
+/* loader */
+.test_spinner {
+  	box-sizing: border-box;
+  	display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0px 10px -4px 0px;
+    border: 0px solid #27ae60;
+    border-radius: 50%;
+    box-shadow: 0 -4px 0 -2px #27ae60 inset;
+    animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.test_inputs_div h4:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    position:  absolute;
+    bottom: 0;
+}
+.test_inputs_div h4 {
+    position:  relative;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+.test_inputs_div input#test_url_input {
+    padding: 0 0 0 5px;
+    height: 31px;
+    display: inline;
+    vertical-align: middle;
+}
+.test_output_div {
+    font-size: 14px;
+}
+.test_output_div span.glyphicon {
+	vertical-align: -1px;
+}
+.test_output_div span.glyphicon-remove + span {
+	color: red;
+    margin-left: 7px;
+}
+
+.test_output_div span.glyphicon-ok + span {
+    color: green;
+    margin-left: 7px;
+}
+.test_inputs_div input#test_url_input {
+    max-width: initial !important;
+}
+.test_inputs_div a.learn_link {
+    vertical-align: middle;
+    margin-top: 16px;
+    line-height: 19px;
+    display: block;
+    text-align: left;
+}
+.test_inputs_div a.learn_link span {
+    margin-right: 4px;
+    vertical-align: -4px;
+    font-size: 18px;
+}
+
+
+
+#add_redirect{ 
+    z-index: 99999;
+}
+
+.modal-backdrop {z-index: -1;}
+
+
+
+.data_grid  > tbody > tr > td, .data_grid  > tbody > tr > th {vertical-align: middle;}

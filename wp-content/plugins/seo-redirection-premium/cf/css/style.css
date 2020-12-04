@@ -1,0 +1,260 @@
+body{background-color: transparent; font-family: "Open Sans",sans-serif; font-size: 13px;}
+
+.dropdown-menu , .form-control {
+	font-size: 13px;
+}
+.color_picker {
+	padding: 0 0 0 5px;
+}
+
+.small_text_box {
+	padding: 0 0 0 5px;
+	height: 31px;
+	display: inline;
+	vertical-align: middle;
+}
+.cf_tabs_container_main_default #tab1 .small_text_box {
+    max-width: 250px;
+}
+.bcheckbox .btn span.glyphicon {
+	opacity: 0;
+}
+.bcheckbox .btn.active span.glyphicon {
+	opacity: 1;
+}
+
+.bcheckbox label{
+	height: 19px;
+	padding: 0;
+	width: 19px;
+}
+
+.bcheckbox .btn{
+	padding: 0;
+	line-height: 18px;
+}
+
+.bootstrap-switch .bootstrap-switch-container {
+	height: 28px;
+}
+
+.table {}
+.table td{
+	font-size: 13px;
+	word-wrap:break-word;
+	}
+
+.table .tool{
+	height: 23px;
+	width: 23px;
+	padding: 0;
+}
+
+.table .toolcell{
+	width: 25px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.table_header
+{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	display: table-cell;
+	text-align: initial ;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+.table th.btn {
+	cursor: auto;
+	text-align: left;
+	border-bottom: 0;
+	border-right: 0;
+
+}
+.table th.btn:hover {
+	text-align: left;
+	border-bottom: 0;
+	border-right: 0;
+	border-color: #dddddd;
+}
+
+
+.divcontainer{
+	width: auto;
+	height: auto;
+	display: inline;
+}
+
+/* the above code is for bootstrap ------------------------*/
+
+.cf_tabs_main_default {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: visible;
+	min-height: 45px;
+	margin-bottom: 5px;
+	padding-left: 9px;
+	border-top: 4px solid #474747;
+	background: url("images/tab_bg.png") repeat-x scroll 0 bottom #FFFFFF;
+}
+
+ul.cf_tabs_main_default li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin-left: 1px;
+    position: relative;
+    float:left;
+    min-height: 35px;
+
+}
+ul.cf_tabs_main_default li a {
+    color: #333333;
+    font: bold 12px/41px Arial,Helvetica,sans-serif;
+    outline: 0 none;
+    padding: 0 15px;
+    text-decoration: none;
+}
+ul.cf_tabs_main_default li a:hover {
+  color: #999999;  
+}
+
+ul.cf_tabs_main_default li.active  {
+	background: url("images/tab_active_bg.png") repeat-x scroll 0 bottom #474747;
+	-webkit-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+ul.cf_tabs_main_default li.active a {
+    color:#ffffff;
+}
+.cf_tabs_content_main_default {
+	font-size: 12px;
+	background-color: #ffffff;
+	padding: 5px 20px;
+}
+.cf_tabs_container_main_default {
+	background-color: #ffffff;
+	padding-bottom:10px;
+	border:1px solid #999;
+	/*overflow:hidden;*/
+	clear:both;
+	float:left;
+	min-width: 820px;
+	width:100%;
+	-webkit-border-radius:15px;
+	-webkit-border-top-left-radius:0;
+	-webkit-border-top-right-radius:0;
+	-moz-border-radius:15px;
+	-moz-border-radius-topleft:0;
+	-moz-border-radius-topright:0;
+	border-radius:15px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+}
+
+.cf_tabs_sub_default {
+	padding: 0;
+	list-style: none;
+	overflow: visible;
+	min-height: 40px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	background-color: #f7f7f7;
+	-webkit-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-top-left-radius: 9px;
+}
+ul.cf_tabs_sub_default li {
+	float: left;
+	margin-left: 1px;
+	min-height: 29px;
+	position: relative;
+	font-family: Tahoma, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 6px;
+	margin-top: 5px;
+}
+ul.cf_tabs_sub_default li a {
+	color: #333333;
+	outline: 0 none;
+	padding: 0 15px;
+	text-decoration: none;
+}
+ul.cf_tabs_sub_default li a:hover {
+	color: #999999;
+}
+
+ul.cf_tabs_sub_default li.active  {
+	background-color:#474747;
+	-webkit-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-top-left-radius: 9px;
+}
+ul.cf_tabs_sub_default li.active a {
+	color:#ffffff;
+}
+.cf_tabs_content_sub_default {
+	font-size: 12px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+.cf_tabs_container_sub_default {
+	background-color: #ffffff;
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+	min-width: 820px;
+	width: 100%;
+}
+
+
+.submit_buttons {min-height:30px; cursor: pointer; font-family:Tahoma;font-size:12px; margin-bottom:5px; background: url("images/tab_active_bg.png") repeat-x scroll center top  #474747 ;border:1px solid #000;color:#FFF;display:inline-block;margin:2px!important;padding:2px 8px}
+.submit_buttons:hover {background:none #555555;color:#FFF}
+
+.info_icon { width:32px; height:32px; background:url(images/large-info.png) 0 0; float:left; margin-top: -7px; margin-right: 7px; }
+.warning_icon { width:32px; height:32px; background:url(images/dialog-warning.png) 0 0; float:left; margin-top: -7px; margin-right: 7px; }
+.success_icon { width:32px; height:32px; background:url(images/action_success.png) 0 0; float:left;  margin-top: -7px; margin-right: 7px; }
+.failure_icon { width:30px; height:30px;  background:url(images/error.png) 0 0; float:left; margin-top: -7px; margin-right: 7px; }
+
+.del_template { width:16px; height:16px; background:url(images/delete.png) no-repeat 0 0; }
+.add_template { width:16px; height:16px; background:url(images/add.png) no-repeat 0 0;}
+.search_template { width:16px; height:16px; background:url(images/search.png) no-repeat 0 0; }
+.edit_template {width:16px; height:16px; background:url(images/edit.png) no-repeat 0 0;}
+.go_link_template {width:16px; height:16px; background:url(images/go_link.png) no-repeat 0 0;}
+
+a.help_link{  line-height: 24px; background:url(images/help_off.png) no-repeat left center; padding-left:28px; margin-top: -15px; float:right; text-decoration: none; font-szie: 12px}
+a.help_link:hover { background:url(images/help_over.png) no-repeat left center;}
+
+.add_link {height:26px; background:url(images/add.png) no-repeat 0 0; background-position: left center; line-height: 26px; padding-left:21px; padding-right:5px;}
+.del_link {height:26px; background:url(images/delete.png) no-repeat 0 0; background-position: left center; line-height: 26px; padding-left:21px; padding-right:5px;}
+.search_link {height:26px; background:url(images/search.png) no-repeat 0 0; background-position: left center; line-height: 26px; padding-left:21px; padding-right:5px;}
+.see_link {height:26px; background:url(images/see.png) no-repeat 0 0; background-position: left center; line-height: 26px; padding-left:22px; padding-right:5px;}
+.link {height:26px; background:url(images/link.png) no-repeat 0 0; background-position: left center; line-height: 26px; padding-left:17px;}
+
+.hint_text {font-size: 12px;color:#838383}

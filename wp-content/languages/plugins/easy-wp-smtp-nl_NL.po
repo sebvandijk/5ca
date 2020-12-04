@@ -1,0 +1,198 @@
+# Translation of Plugins - Easy WP SMTP - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Easy WP SMTP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-28 08:46:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Easy WP SMTP - Stable (latest release)\n"
+
+#: easy-wp-smtp-admin-menu.php:210
+msgid "Write your email message"
+msgstr "Schrijf jouw e-mailbericht"
+
+#: easy-wp-smtp-admin-menu.php:196
+msgid "Enter the recipient's email address"
+msgstr "Voer het e-mailadres van de ontvanger in"
+
+#: easy-wp-smtp-admin-menu.php:104
+msgid "SMTP Configuration Settings"
+msgstr "SMTP-configuratie-instellingen"
+
+#: easy-wp-smtp-admin-menu.php:72
+msgid "Please enter a valid email address in the recipient email field."
+msgstr "Geef een geldig e-mailadres op in het e-mailveld van de ontvanger."
+
+#. Author URI of the plugin/theme
+msgid "https://wp-ecommerce.net/"
+msgstr "https://wp-ecommerce.net/"
+
+#. Author of the plugin/theme
+msgid "wpecommerce"
+msgstr "wpecommerce"
+
+#. Description of the plugin/theme
+msgid "Send email via SMTP from your WordPress Blog"
+msgstr "Verzend e-mail via SMTP vanaf jouw WordPress-blog"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+msgstr "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+
+#: easy-wp-smtp.php:223
+msgid "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+msgstr "Configureer jouw SMTP-inloggegevens in het <a href=\"%s\"> instellingenmenu </a> om e-mail te verzenden met de Easy WP SMTP-plugin."
+
+#: easy-wp-smtp-admin-menu.php:215
+msgid "Send Test Email"
+msgstr "Test-e-mail verzenden"
+
+#: easy-wp-smtp-admin-menu.php:207
+msgid "Message"
+msgstr "Bericht"
+
+#: easy-wp-smtp-admin-menu.php:203
+msgid "Enter a subject for your message"
+msgstr "Voer een onderwerp in voor jouw bericht"
+
+#: easy-wp-smtp-admin-menu.php:200
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: easy-wp-smtp-admin-menu.php:193
+msgid "To"
+msgstr "Naar"
+
+#: easy-wp-smtp-admin-menu.php:185
+msgid "Testing And Debugging Settings"
+msgstr "Test en debug instellingen"
+
+#: easy-wp-smtp-admin-menu.php:172
+msgid "Save Changes"
+msgstr "Bewaar wijzigingen"
+
+#: easy-wp-smtp-admin-menu.php:167
+msgid "The password to login to your mail server"
+msgstr "Het wachtwoord om in te loggen op jouw e-mail server"
+
+#: easy-wp-smtp-admin-menu.php:164
+msgid "SMTP Password"
+msgstr "SMTP-wachtwoord"
+
+#: easy-wp-smtp-admin-menu.php:160
+msgid "The username to login to your mail server"
+msgstr "De gebruikersnaam om in te loggen op jouw e-mail server"
+
+#: easy-wp-smtp-admin-menu.php:157
+msgid "SMTP username"
+msgstr "SMTP-gebruikersnaam"
+
+#: easy-wp-smtp-admin-menu.php:153
+msgid "This options should always be checked 'Yes'"
+msgstr "Deze opties moeten altijd zijn aangevinkt 'Ja'"
+
+#: easy-wp-smtp-admin-menu.php:152
+msgid "Yes"
+msgstr "Ja"
+
+#: easy-wp-smtp-admin-menu.php:151
+msgid "No"
+msgstr "Nee"
+
+#: easy-wp-smtp-admin-menu.php:149
+msgid "SMTP Authentication"
+msgstr "SMTP-verificatie"
+
+#: easy-wp-smtp-admin-menu.php:145
+msgid "The port to your mail server"
+msgstr "De poort naar jouw e-mail server"
+
+#: easy-wp-smtp-admin-menu.php:142
+msgid "SMTP Port"
+msgstr "SMTP-poort"
+
+#: easy-wp-smtp-admin-menu.php:138
+msgid "For most servers SSL is the recommended option"
+msgstr "Voor de meeste servers is SSL/TLS de aanbevolen optie"
+
+#: easy-wp-smtp-admin-menu.php:137
+msgid "TLS"
+msgstr "TLS"
+
+#: easy-wp-smtp-admin-menu.php:136
+msgid "SSL"
+msgstr "SSL"
+
+#: easy-wp-smtp-admin-menu.php:135
+msgid "None"
+msgstr "Geen"
+
+#: easy-wp-smtp-admin-menu.php:133
+msgid "Type of Encription"
+msgstr "Type versleuteling"
+
+#: easy-wp-smtp-admin-menu.php:129
+msgid "Your mail server"
+msgstr "Jouw e-mail server"
+
+#: easy-wp-smtp-admin-menu.php:126
+msgid "SMTP Host"
+msgstr "SMTP-host"
+
+#: easy-wp-smtp-admin-menu.php:122
+msgid "This text will be used in the 'FROM' field"
+msgstr "Deze tekst wordt gebruikt in het veld 'VAN"
+
+#: easy-wp-smtp-admin-menu.php:119
+msgid "From Name"
+msgstr "Afzender naam"
+
+#: easy-wp-smtp-admin-menu.php:115
+msgid "This email address will be used in the 'From' field."
+msgstr "Dit e-mailadres wordt gebruikt in het veld 'Van'."
+
+#: easy-wp-smtp-admin-menu.php:112
+msgid "From Email Address"
+msgstr "Van E-mailadres"
+
+#: easy-wp-smtp-admin-menu.php:100
+msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
+msgstr "De plugin instellingen zijn gewijzigd. Om ze op te slaan vergeet dan niet op de \"Bewaar wijzigingen\" knop te klikken."
+
+#: easy-wp-smtp-admin-menu.php:100
+msgid "Notice:"
+msgstr "Opmerking:"
+
+#: easy-wp-smtp-admin-menu.php:18
+msgid "Easy WP SMTP Settings"
+msgstr "Easy WP SMTP-instellingen"
+
+#: easy-wp-smtp-admin-menu.php:62
+msgid "Settings are not saved."
+msgstr "Instellingen worden niet opgeslagen."
+
+#: easy-wp-smtp-admin-menu.php:60
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: easy-wp-smtp-admin-menu.php:51
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "Geef een geldige poort op in het veld 'SMTP-poort'."
+
+#: easy-wp-smtp-admin-menu.php:36
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Voer een geldig e-mailadres in het veld 'VAN' in."
+
+#: easy-wp-smtp.php:32 easy-wp-smtp.php:51
+msgid "Settings"
+msgstr "Instellingen"
+
+#. #-#-#-#-#  tmp-easy-wp-smtp.pot (Easy WP SMTP 1.2.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: easy-wp-smtp-admin-menu.php:9
+msgid "Easy WP SMTP"
+msgstr "Easy WP SMTP"
